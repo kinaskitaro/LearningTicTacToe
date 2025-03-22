@@ -1,0 +1,9 @@
+# Enforce LF line endings for all text files
+* text=auto
+
+# Python files should use LF
+*.py text eol=lf
+
+# Ignore CRLF warnings for specific files if needed
+*.gitignore text eol=lf
+*.md text eol=lf
